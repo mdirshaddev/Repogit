@@ -1,0 +1,24 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#b37fbb",
+    "activityBar.activeBorder": "#dedac1",
+    "activityBar.background": "#b37fbb",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#dedac1",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#9f5ea9",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#b37fbb",
+    "titleBar.activeBackground": "#9f5ea9",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#9f5ea999",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.remoteColor": "#9f5ea9",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "peacock.color": "#9f5ea9",
+  "eslint.format.enable": false
+}

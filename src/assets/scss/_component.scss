@@ -1,0 +1,26 @@
+/*
+  # Motivations
+  * Here we will have some components css
+  * Actuall we are using modular CSS approach
+  * This file is to build some small CSS components example for a grid vertical or horizontal elements or  * for a flex item
+*/
+
+.dev{
+  &-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Big Shoulders Display';
+  }
+  //for repogit
+  &-title{
+    font-size: 4em;
+    color: white;
+  }
+  &-typography{
+    font-family: 'Yusei Magic';
+  }
+}
