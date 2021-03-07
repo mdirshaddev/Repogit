@@ -2,7 +2,6 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
   mode: 'production',
@@ -39,7 +38,6 @@ module.exports = {
       },
     },
     minimizer: [
-      new OptimizeCssAssetsPlugin(),
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         title: 'Repogit',

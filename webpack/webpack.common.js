@@ -96,7 +96,7 @@ module.exports={
     })
   ],
   resolve: {
-    extensions: ['.jsx', '.js', '.json', '.scss'],
+    extensions: ['.jsx', '.js', '.json', '.scss']
   },
   stats: 'verbose'
 }
