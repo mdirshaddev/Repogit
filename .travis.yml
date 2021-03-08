@@ -5,6 +5,7 @@ cache:
   directories:
     - node_modules
 script:
+  - npm i -D
   - npm run build
 deploy:
   provider: pages
