@@ -1,6 +1,5 @@
 {
   "name": "repogit",
-  "homepage": "https://github.com/mdirshaddev/repogit",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mdirshaddev/repogit.git"
