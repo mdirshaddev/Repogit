@@ -17,7 +17,9 @@
     "build:clean": "rm -rf ./build",
     "serve": "serve -s build",
     "serve:analyze": "serve -s build/report.html",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "install-client": "npm install --save-dev",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "keywords": [
     "Webpack5",
