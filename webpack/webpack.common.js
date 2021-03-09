@@ -2,6 +2,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const WorkboxPlugin = require('workbox-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports={
 	entry: {
@@ -52,6 +53,17 @@ module.exports={
 	},
 	plugins: [
     new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      title: 'Repogit',
+      filename: 'index.html',
+      template: path.resolve(__dirname, '../public/index.html'),
+      favicon: path.resolve(__dirname, '../public/ico/icons8-github-48.png'),
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true,
+        removeComments: true
+      }
+    }),
     new WebpackPwaManifest({
       filename: "manifest.json",
       name: 'Repogit',

@@ -38,18 +38,7 @@ module.exports = {
       },
     },
     minimizer: [
-      new CleanWebpackPlugin(),
-      new HtmlWebpackPlugin({
-        title: 'Repogit',
-        filename: 'index.html',
-        template: path.resolve(__dirname, '../public/index.html'),
-        favicon: path.resolve(__dirname, '../public/ico/icons8-github-48.png'),
-        minify: {
-          removeAttributeQuotes: true,
-          collapseWhitespace: true,
-          removeComments: true
-        }
-      })
+      new CleanWebpackPlugin()
     ]
   },
   plugins: [

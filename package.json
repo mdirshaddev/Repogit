@@ -19,7 +19,8 @@
     "serve:analyze": "serve -s build/report.html",
     "lint": "eslint ./",
     "install-client": "npm install --save-dev",
-    "heroku-postbuild": "npm run install-client && npm run build"
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "server-start": "cd backend && node server.js"
   },
   "keywords": [
     "Webpack5",

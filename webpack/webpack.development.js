@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DotEnv = require('dotenv-webpack');
 const eslintWebpackPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -27,12 +26,6 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Repogit',
-      filename: 'index.html',
-      template: path.resolve(__dirname, '../public/index.html'),
-      favicon: path.resolve(__dirname, '../public/ico/icons8-github-48.png')
-    }),
     new DotEnv({
       path: path.resolve(__dirname, '../.env'), 
       allowEmptyValues: false, // no empty variables will be allowed
