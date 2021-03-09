@@ -12,5 +12,3 @@ deploy:
   api_key:
     secure: LHWH0COhjE9bq+iIlfMZNx3NzCMMraa9k//b8AUDPwpXS2nyV/QKhBI+W8zwLuuEUp+rD3OQ7kYgXPUmRCEsY500CxZFHm9Ns+N7oQNgV8HAw//F37SUSHkb8b2UMLp4Jy3GaJ7naJ56BKWiEWou1toj8pqrz9ibiGVn9veIwJ3/y+fx4Aw1uvckK+So/1i8irR432iUc7FQg3VvVHo/U3cbiYcwE8SUp7ke19f3dVWDoOraqSY4UiArYOSF1rwGlmFK0jj4JDvokarcMp5bAbmKHBne6QJiD1vQmxr7p8cLZpx4d/K+qTbB9KImB1hO4kq+RAFmNzLzu+nhfnq3VWuKZkq62Z/6NtxOhw8nADPzaaCgHxR0QuZnCBSw5aQ2mey+fo+lt7ah/JNujXumeqKN2gala15uxJ8PPot82LK6bMaPe0gFYDtJKwuWqt0+XR5GeeTY4rqiIjk+yyq6sDAQGsjDy3Y/t7T5fNmx7f/bKPBeKg8F3iWPYfXxtyBrrf0CesHHdCCPLPJLDpD/JyrUot0ga2nXpptEI/sZONgGKoTOxx72qtMvDS/ZfJR8MsPk04zhyldlnsL0nm4apDwPDbdqubQjEGaSM3wnahN2gzw3a4Kvu/26eVrDtzsn63oAo/dt2dclHNJiCTx5p3m/zYGWViIwUIeQ4Tce/Ik=
   name: repogit-github
-  on:
-    all_branches: true
