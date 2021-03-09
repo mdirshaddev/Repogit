@@ -20,7 +20,7 @@
     "lint": "eslint ./",
     "install-client": "npm install --save-dev",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "cd backend && node server.js"
+    "start": "cd backend && npm install && node server.js"
   },
   "keywords": [
     "Webpack5",
