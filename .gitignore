@@ -5,4 +5,4 @@ build
 # intentionally
 redux
 router.jsx
-Procfile
+*.rest
