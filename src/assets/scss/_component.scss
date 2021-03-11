@@ -14,6 +14,8 @@
     height: 100vh;
     justify-content: center;
     font-family: 'Big Shoulders Display';
+    position: relative;
+    overflow: hidden;
   }
   //for repogit
   &-title{
@@ -60,5 +62,32 @@
   font-family: 'Yusei Magic';
   &:active{
     transform: scale(0.89);
+  }
+}
+
+.fork-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  display: flex;
+  justify-content: center;
+  & .fa-github{
+    align-items: center;
+    transform: scale(2);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.rotate-handle-box{
+  display: flex;
+  transform: rotate(45deg) scale(1.2);
+  padding-bottom: 3rem;
+  & .fa-github::before{
+    color: white;
   }
 }
