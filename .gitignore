@@ -6,3 +6,4 @@ build
 redux
 router.jsx
 *.rest
+styled-components

@@ -9,7 +9,7 @@
     "url": "https://github.com/mdirshaddev/repogit/issues"
   },
   "version": "1.0.0",
-  "description": "This is a Static Github Api based react app",
+  "description": "Repogit A Single Page Application with PWA capabilities",
   "main": "index.js",
   "scripts": {
     "server-start": "webpack serve --config webpack/webpack.config.js --env env=development --progress",
@@ -23,7 +23,7 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "cd backend && npm install && node server.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -- -o storybook-build",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [

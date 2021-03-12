@@ -12,7 +12,7 @@ export default function App(){
       </h1>
       <div className="animate-box">
         <div className="small-disable-box"><a href="https://github.com/mdirshaddev" target="_blank" className="fa fa-github"></a></div>
-        <button className="button-box">Let's try</button>
+        <button className="button-box">Let's try ⬇</button>
       </div>
     </div>
   )
